@@ -1,0 +1,347 @@
+body{ 
+    margin-left: 10px; 
+    font-family: 'Courier New';
+    color:black;
+    background-color: #F5EEDC;
+    }
+   .name {
+     float:left;
+   }
+
+
+.nav{
+    margin:18px 20px 10px 10px;
+    padding-right: 10px;
+    overflow:hidden; 
+    height:110px;
+   }
+
+.header_img{
+   border-radius: 50%;
+    width:40%;
+    float:right;  
+} 
+
+
+.btn {
+    color:black;
+    border: 3px solid #C0D8C0; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow:0 10px 19px 0px #C0D8C0, 0 0px 8px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .btn:hover{
+   background-color:#C0D8C0;
+   color:white;
+  }
+
+  .menu-btn {
+    color:#DD4A48;
+    padding: 10px 20px;
+    margin:0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    float:right;
+  }
+
+.nav ul {
+    list-style:none;
+}
+.headers{
+    text-align: center;
+    margin:3%;
+    padding:2%;
+    font-size: 4rem;
+    font-family:Mrs Saint Delafield;
+}
+
+.smallhr{
+    width:100px;
+    margin-top: 2%;
+    border: 3px solid rgb(189, 224, 224);
+    border-radius: 5px;
+}
+
+.bighr{
+    margin-top:2%;
+    border:3px solid #ECB390;
+    border-radius: 5px;
+    width:200px;
+
+}
+.align {
+    margin: 0px 50px 80px 50px;
+
+}
+.name-font{
+    font-family: Mrs Saint Delafield;
+    font-size: 6rem;
+    margin:initial;
+}
+.hello-font{
+margin:initial;
+font-family: 'Courier New';
+
+}
+.largeletters {
+    letter-spacing: 2px;
+   font-size: large;
+   font-size:150%; width:80%;
+
+}
+.showonclick{
+    display: none;
+}
+/* skills */
+.btn-skill {
+    border-bottom: 3px solid #C0D8C0;
+    background-color: inherit;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: large;
+    margin: 10px 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    width: 26%;
+    display: inline-block;
+  }
+  
+  .btn-skill:hover {opacity: 1}
+
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+  .arrow {
+  border: solid rgba(0, 0, 0, 0.664);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.yellowbtn:hover{
+    transform: scale(1.1);
+}
+
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+
+}
+  
+
+  
+  .fa:hover {
+    color:rgb(161, 218, 218);
+background-color: white;   
+  }
+  
+.fa-facebook, .fa-linkedin, .fa-github {
+    background: rgb(161, 218, 218);
+    color: white;
+  }
+.fa-envelope{
+    color:  #DD4A48;
+}
+
+.footer{
+    text-align: center;
+}
+.footer img {
+    width:40px;
+    height:30px;
+    padding-right: 13px;
+}
+@media screen and (max-width: 600px) {
+    .header_img {
+        margin-right:13%;
+      width: 70%;
+      padding:0.5%;
+
+    }
+   .card{
+     width:95%;
+   }
+   .align {
+    overflow: hidden;
+    padding:4%;
+}
+
+   #project h2{
+       text-align: center;
+   }
+   main{
+       font-size: medium;
+       margin:5px;
+   }
+   img{
+       width: 90%;
+   }
+}
+@media screen and (max-width: 768px) {
+    
+    .header_img {
+      margin-right:13%;
+      width: 70%;
+      padding:0.5%;
+
+    }
+   .card{
+     width:95%;
+   }
+   .align {
+    overflow: hidden;
+    padding:4%;
+}
+
+   #project h2{
+       text-align: center;
+   }}
+
+  
+  .carousel-cell {
+    width: 70%;
+    height: 200px;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+  }
+  
+  .carousel-cell img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.7;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+            transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+  }
+  
+  /* brighten selected image */
+  .carousel-cell.is-selected img {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: none;
+            filter: none;
+  }
+  
+  @media screen and ( min-width: 768px ) {
+    .carousel-cell {
+      height: 400px;
+    }
+  }
+  
+  @media screen and ( min-width: 960px ) {
+    .carousel-cell {
+      width: 60%;
+    }
+  }
+  
+  /* buttons, no circle */
+  .flickity-prev-next-button {
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    opacity: 0.6;
+  }
+  .flickity-prev-next-button:hover {
+    background: transparent;
+    opacity: 1;
+  }
+  /* arrow color */
+  .flickity-prev-next-button .arrow {
+    fill: #DD4A48;
+  }
+  .flickity-prev-next-button.no-svg {
+    color: #DD4A48;
+  }
+  /* closer to edge */
+  .flickity-prev-next-button.previous { left: 0; }
+  .flickity-prev-next-button.next { right: 0; }
+  /* hide disabled button */
+  .flickity-prev-next-button:disabled {
+    display: none;
+  }
+ .carousel, .carousel-cell{
+     background-color: #F5EEDC;
+ }
+ .image {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+ .overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: large;
+  }
+  .overlay h4{
+      color:#DD4A48;
+      border-bottom: 2px solid white;
+  }
+  
+  .carousel-cell:hover .image {
+    opacity: 0.2;
+  }
+  
+  .carousel-cell:hover .overlay {
+    opacity: 1;
+  }
+
+  
+  .center-img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  box-shadow:0 10px 19px 0px #F5EEDC, 0 0px 8px 0 #ECB390;
+ 
+}
+
+
+  .view-btn {
+    background-color: #DD4A48;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    top: 50%;
+    left: 50%;
+  }
