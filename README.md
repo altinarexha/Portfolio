@@ -4,5 +4,4 @@ username: altinarexha
 pass: Mypass123
 
 Preview:
-![alt text](<index.png>)
-
+<img src="index.png">
